@@ -28,6 +28,9 @@ export R_LIBS=$BIN_DIR/:$R_LIBS
 export PATH=$BIN_DIR/minizinc/bin/:$PATH
 #export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$BIN_DIR/minizinc/lib
 
+#powertop
+export PATH=$BIN_DIR/powertop/:$PATH
+
 # ortools
 export PATH=$BIN_DIR/ortools/bin/:$PATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$BIN_DIR/ortools/lib
