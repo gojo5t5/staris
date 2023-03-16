@@ -8,4 +8,6 @@ do
     bash install-${s}.sh
 done
 
+sudo apt-get install powertop
+
 popd
