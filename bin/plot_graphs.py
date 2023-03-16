@@ -51,8 +51,10 @@ def process_files(folder_path):
                     # The problem is unsatisfiable
                     add_to_dict('UNSAT', model, instance, solver)
 
-                elif "=====ERROR=====" in output or "=====UNKNOWN=====" in output:  # minizinc had an ERROR
+                elif "=====ERROR=====" in output:
                     add_to_dict('ERR', model, instance, solver)
+                elif "=====UNKNOWN=====" in output:  # minizinc had an ERROR
+                    add_to_dict('UNK', model, instance, solver)
 
         elif os.path.isdir(fullpath):
             # Recursively process the subdirectory
