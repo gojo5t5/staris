@@ -15,4 +15,4 @@ energy_profiler=$5
 cores=$6
 
 # Run minizinc command
-minizinc $m $i --solver $s --time-limit $time_limit -s -f -p $cores > mznc_results/$energy_profiler/$m_no_extension,$i_no_extension,$s.txt 2>&1
+minizinc $m $i --solver $s --time-limit $time_limit --statistics -f -p $cores > mznc_results/$energy_profiler/$m_no_extension,$i_no_extension,$s.txt 2>&1

@@ -64,11 +64,17 @@ def process_files(folder_path, csv_writer):
                     energy, runtime = get_data(model, instance, solver, energy_folder_path)
                     csv_writer.writerow([model, instance, solver, "", "UNSAT", runtime, energy])
 
-                elif "=====ERROR=====" in output or "=====UNKNOWN=====" in output:  # minizinc had an ERROR
+                elif "=====ERROR=====" in output:
                     add_to_dict('ERR', model, instance, solver)
 
                     energy, runtime = get_data(model, instance, solver, energy_folder_path)
                     csv_writer.writerow([model, instance, solver, "", "ERR", runtime, energy])
+                
+                elif "=====UNKNOWN=====" in output:  # minizinc had an ERROR
+                    add_to_dict('UNK', model, instance, solver)
+
+                    energy, runtime = get_data(model, instance, solver, energy_folder_path)
+                    csv_writer.writerow([model, instance, solver, "", "UNK", runtime, energy])
                 
 
         elif os.path.isdir(fullpath):

@@ -11,6 +11,7 @@ results = {
     "UNSAT": {},
     # optimization problems
     "SOLVED": {},
+    "UNK": {},
     "ERR": {}
 }
 

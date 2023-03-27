@@ -1,8 +1,9 @@
 #!/bin/bash
+time_limit=$((1000 * 60 * 20)) #20 minutes
+# time_limit=$((1000)) #20 minutes
+# solvers=(chuffed gecode jacop ortools picat)
+solvers=(gecode ortools picat)
 repeats=1
-# time_limit=$((1000 * 60 * 20)) #20 minutes
-time_limit=$((1000)) #20 minutes
-solvers=(chuffed gecode jacop ortools picat)
 cores=4
 
 if [ ! -d "mznc2022_probs" ]; then
@@ -34,23 +35,21 @@ chmod +x run-minizinc.sh
 # sudo powertop --calibrate
 
 # start experiment
-
 while read line; do
-
     echo "$line"
-    path_to_model=$(echo $line | cut -d ',' -f 1)
-    path_to_instance=$(echo $line | cut -d ',' -f 2)
-
-    m=basename path_to_model
-    i=basename path_to_instance
-
-    extension=${i##*.}
+    path_to_model=$(echo $line | cut -d " " -f 1)
+    path_to_instance=$(echo $line | cut -d " " -f 2)
+    m=$(basename "$path_to_model")
+    i=$(basename "$path_to_instance")
+    extension=${m##*.}
     i_filename=${i%.*}
 
-    if [ "$extension" = "dzn" ]; then
+    if [ "$extension" = "mzn" ]; then
+
         for s in "${solvers[@]}"; do
 
             results_file_name=$(basename -s .mzn $m),$i_filename,$s
+            echo "results file name is: $results_file_name"
 
             printf "\n:: Running minizinc on model $m, instance $i, and using solver $s, for 20 minutes.\n"
 
@@ -58,42 +57,42 @@ while read line; do
             energy_profiler="perf"
 
             cat ../../password.txt | \
-            sudo -S perf stat -r $repeats \
+            sudo -S perf stat \
             -e power/energy-cores/,power/energy-ram/,power/energy-gpu/,power/energy-pkg/ \
-            ./run-minizinc.sh $m $i $s $time_limit $energy_profiler $cores \
+            ./run-minizinc.sh $path_to_model $path_to_instance $s $time_limit $energy_profiler $cores \
             > energy_data/$energy_profiler/$results_file_name.txt 2>&1
 
             printf "\n-----Measuring with jouleit----\n\n"
             energy_profiler="jouleit"
 
             cat ../../password.txt | \
-            sudo -S ./jouleit.sh -n $repeats -c \
-            ./run-minizinc.sh $m $i $s $time_limit $energy_profiler $cores \
+            sudo -S ./jouleit.sh -b \
+            ./run-minizinc.sh $path_to_model $path_to_instance $s $time_limit $energy_profiler $cores \
             > energy_data/$energy_profiler/$results_file_name.txt 
 
-            printf "\n-----Measuring with powertop----\n\n"
-            energy_profiler="powertop"
+            # printf "\n-----Measuring with powertop----\n\n"
+            # energy_profiler="powertop"
 
-            ./run-minizinc.sh $m $i $s $time_limit $energy_profiler $cores &
-            program_pid=$!
+            # ./run-minizinc.sh $path_to_model $path_to_instance $s $time_limit $energy_profiler $cores &
+            # program_pid=$!
 
-            # Wait until the program has fully initialized
-            while kill -0 $program_pid >/dev/null 2>&1; do
-                sleep 1
-            done
+            # # Wait until the program has fully initialized
+            # while kill -0 $program_pid >/dev/null 2>&1; do
+            #     sleep 1
+            # done
 
             # Start powertop and wait for the program to finish
-            cat ../../password.txt | \
-            sudo -S powertop --csv=energy_data/$energy_profiler/$results_file_name.csv \
-            --time=$((time_limit / 1000)) &
-            powertop_pid=$!
+            # cat ../../password.txt | \
+            # sudo -S powertop --csv=energy_data/$energy_profiler/nfc,12_2_11,gecode.csv &
+            # powertop_pid=$!
 
-            wait $program_pid
-            wait $powertop_pid
+            # wait $program_pid
+            # kill $powertop_pid
+
         done
     fi
 
-done < paths_to_instances.txt
+done < instances-set2.txt
 
 # for model in ./mznc2022_probs/*; do
 #     printf "\n model: $model"
@@ -111,18 +110,13 @@ done < paths_to_instances.txt
 #                 for s in "${solvers[@]}"; do
 #                     printf "\n:: Running minizinc on model $m, instance $i, and using solver $s, for 20 minutes.\n"
 
-#                     # printf "\n\n-----Measuring with perf-----\n\n"
+#                     printf "\n\n-----Measuring with perf-----\n\n"
+#                     energy_profiler="perf"
+#                     cat ../../password.txt | sudo -S perf stat -e power/energy-cores/,power/energy-ram/,power/energy-gpu/,power/energy-pkg/ bash -c "source set-path.sh; minizinc $m $i --solver $s --time-limit $time_limit -s > mznc_results/$energy_profiler/$results_file_name.txt" > energy_data/$energy_profiler/$results_file_name.txt 2>&1
 
-#                     # energy_profiler="perf"
-
-#                     # cat ../../password.txt | sudo -S perf stat -r $repeats -e power/energy-cores/,power/energy-ram/,power/energy-gpu/,power/energy-pkg/ ./run-minizinc.sh $m $i $s $time_limit $energy_profiler $cores > energy_data/$energy_profiler/$(basename -s .mzn $m),$i_no_extension,$s.txt 2>&1
-
-
-#                     # printf "\n-----Measuring with jouleit----\n\n"
-
-#                     # energy_profiler="jouleit"
-
-#                     # cat ../../password.txt | sudo -S ./jouleit.sh -n $repeats -c ./run-minizinc.sh $m $i $s $time_limit $energy_profiler $cores > energy_data/$energy_profiler/$(basename -s .mzn $m),$i_no_extension,$s.txt 
+#                     printf "\n-----Measuring with jouleit----\n\n"
+#                     energy_profiler="jouleit"
+#                     cat ../../password.txt | sudo -S ./jouleit.sh -n $repeats -c 
 
 #                     printf "\n-----Measuring with powertop----\n\n"
 
@@ -142,8 +136,8 @@ done < paths_to_instances.txt
 #                     wait $program_pid
 #                     wait $powertop_pid
 
-#                     # energy_profiler="powertop"
-#                     # ./run-minizinc.sh $m $i $s $time_limit $energy_profiler & cat ../../password.txt | sudo -S powertop --csv=energy_data/$energy_profiler/$(basename -s .mzn $m),$i_no_extension,$s.csv --time= $time_limit & wait
+#                     energy_profiler="powertop"
+#                     ./run-minizinc.sh $m $i $s $time_limit $energy_profiler & cat ../../password.txt | sudo -S powertop --csv=energy_data/$energy_profiler/$(basename -s .mzn $m),$i_no_extension,$s.csv --time= $time_limit & wait
 
 #                 done
 #             fi
