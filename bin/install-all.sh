@@ -10,4 +10,9 @@ done
 
 sudo apt-get install powertop
 
+git clone https://github.com/powerapi-ng/jouleit.git
+pushd jouleit
+mv jouleit.sh ../
+popd jouleit
+rm -rf jouleit
 popd
