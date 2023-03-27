@@ -1,3 +1,12 @@
+How to install
+
+- run ./install-all.sh to install relevant solvers and energy measuring tools such as jouleit.
+- once everything has been installed, you can run ./run-experiments.sh [path to instance_list] [number of cores] [time_limit in milliseconds] to run the experiments.
+
+
+
+
+
 **Welcome to AutoIG's documentation!**
 
 .. _`[Github repo]`: https://github.com/stacs-cp/AutoIG

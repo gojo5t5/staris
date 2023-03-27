@@ -1,10 +1,10 @@
 #!/bin/bash
-time_limit=$((1000 * 60 * 20)) #20 minutes
 # time_limit=$((1000)) #20 minutes
 # solvers=(chuffed gecode jacop ortools picat)
+instances=$1
+cores=$2
+time_limit=$3
 solvers=(gecode ortools picat)
-repeats=1
-cores=4
 
 if [ ! -d "mznc2022_probs" ]; then
     tar -xvf mznc2022_probs.tar
@@ -92,7 +92,7 @@ while read line; do
         done
     fi
 
-done < instances-set2.txt
+done < instances
 
 # for model in ./mznc2022_probs/*; do
 #     printf "\n model: $model"
