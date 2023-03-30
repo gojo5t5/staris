@@ -1,5 +1,5 @@
 #!/bin/bash
-# time_limit=$((1000)) #20 minutes
+# time_limit=$((1000))
 # solvers=(chuffed gecode jacop ortools picat)
 instances=$1
 cores=$2
@@ -92,7 +92,7 @@ while read line; do
         done
     fi
 
-done < instances
+done < instances-set2.txt
 
 # for model in ./mznc2022_probs/*; do
 #     printf "\n model: $model"
@@ -145,5 +145,5 @@ done < instances
 #     done
 # done
 
-# scp -r mh354@hawthorn.cs.st-andrews.ac.uk:AutoIG/bin/UNSAT_energy_consumption.png /Users/matteohe/Desktop/
-# scp -r /Users/matteohe/Documents/staris/AutoIG/bin/plot_graphs.py mh354@hawthorn.cs.st-andrews.ac.uk:AutoIG/bin/
+# scp -r mh354@hawthorn.cs.st-andrews.ac.uk:AutoIG/bin/csv /Users/matteohe/Desktop/
+# scp -r /Users/matteohe/Documents/staris/AutoIG/bin/instances-set2.txt mh354@hawthorn.cs.st-andrews.ac.uk:AutoIG/bin/
