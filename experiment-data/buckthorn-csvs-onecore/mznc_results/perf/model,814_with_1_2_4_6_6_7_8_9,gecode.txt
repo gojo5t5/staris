@@ -1,0 +1,37 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=2034
+%%%mzn-stat: flatIntVars=750
+%%%mzn-stat: flatSetVars=1
+%%%mzn-stat: flatBoolConstraints=1221
+%%%mzn-stat: flatIntConstraints=2313
+%%%mzn-stat: flatSetConstraints=15
+%%%mzn-stat: evaluatedReifiedConstraints=728
+%%%mzn-stat: evaluatedHalfReifiedConstraints=1264
+%%%mzn-stat: eliminatedImplications=313
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.176444
+%%%mzn-stat-end
+
+tree = array1d(1..15, [Mul, Add, Val, Val, Mul, Val, Val, Null, Null, Null, Null, Val, Val, Val, Val]);
+left = array1d(1..15, [2, 3, 0, 0, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+right = array1d(1..15, [5, 4, 0, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+lowest = array1d(1..15, [1, 2, 3, 4, 5, 6, 7, 0, 0, 0, 0, 0, 0, 0, 0]);
+highest = array1d(1..15, [7, 4, 3, 4, 7, 6, 7, 0, 0, 0, 0, 0, 0, 0, 0]);
+indexes = array1d(1..15, [0, 0, 6, 7, 0, 4, 8, 0, 0, 0, 0, 1, 2, 3, 5]);
+used = 4;
+tree_vals = array1d(1..15, [810, 15, 7, 8, 54, 6, 9, 0, 0, 0, 0, 1, 2, 4, 6]);
+----------
+%%%mzn-stat: initTime=0.017506
+%%%mzn-stat: solveTime=1199.82
+%%%mzn-stat: solutions=45
+%%%mzn-stat: variables=2785
+%%%mzn-stat: propagators=3564
+%%%mzn-stat: propagations=10484910386
+%%%mzn-stat: nodes=47378744
+%%%mzn-stat: failures=23689255
+%%%mzn-stat: restarts=0
+%%%mzn-stat: peakDepth=26
+%%%mzn-stat-end
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

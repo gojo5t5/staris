@@ -1,0 +1,26 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=1195
+%%%mzn-stat: flatIntVars=152
+%%%mzn-stat: flatBoolConstraints=1675
+%%%mzn-stat: flatIntConstraints=1004
+%%%mzn-stat: evaluatedHalfReifiedConstraints=880
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.105258
+%%%mzn-stat-end
+
+root = 7;
+h = [1, 2, 1, 3, 2, 1, 0, 3, 3, 2, 2, 2, 3, 3, 3];
+p = [7, 6, 7, 2, 6, 7, 7, 10, 10, 1, 3, 3, 5, 10, 12];
+es = [false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, true, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false];
+objective = 314;
+----------
+==========
+%%%mzn-stat: objective=314
+%%%mzn-stat: objectiveBound=314
+%%%mzn-stat: boolVariables=745
+%%%mzn-stat: failures=4293
+%%%mzn-stat: propagations=1273803
+%%%mzn-stat: solveTime=0.715668
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

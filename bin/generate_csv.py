@@ -99,6 +99,8 @@ def get_data(model, instance, solver, path):
             joules_pattern = r'([\d\.]+) Joules power/energy-'
             content = f.read()
             joules_values = re.findall(joules_pattern, content)
+            total_energy = sum(map(float, joules_values))
+
             match = re.search(r'\d+\.\d+ seconds', content)
             if match:
                 elapsed_time_str = match.group(0).split(' ')[0]
@@ -109,9 +111,11 @@ def get_data(model, instance, solver, path):
             parsed_dict = parse_jouleit_file(f.read())
             print(parsed_dict)
             elapsed_time = parsed_dict['DURATION'] / 10**6
+            
             joules_values = [parsed_dict['CORE'], parsed_dict['CPU'], parsed_dict['DRAM'], parsed_dict['UNCORE']]
+            total_energy = sum(map(float, joules_values)) / 10**6
 
-    return sum(map(float, joules_values)) / 10**6, elapsed_time
+    return total_energy, elapsed_time
 
 def main():
 

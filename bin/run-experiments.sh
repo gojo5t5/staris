@@ -92,7 +92,7 @@ while read line; do
         done
     fi
 
-done < instances-set2.txt
+done < $instances
 
 # for model in ./mznc2022_probs/*; do
 #     printf "\n model: $model"
@@ -145,5 +145,5 @@ done < instances-set2.txt
 #     done
 # done
 
-# scp -r mh354@hawthorn.cs.st-andrews.ac.uk:AutoIG/bin/csv /Users/matteohe/Desktop/
-# scp -r /Users/matteohe/Documents/staris/AutoIG/bin/instances-set2.txt mh354@hawthorn.cs.st-andrews.ac.uk:AutoIG/bin/
+# scp -r mh354@hawthorn.cs.st-andrews.ac.uk:AutoIG/bin/mznc_results /Users/matteohe/Desktop/hawthorn-backup_mznc/
+# scp -r /Users/matteohe/Documents/staris/AutoIG/bin/run-experiments.sh mh354@hawthorn.cs.st-andrews.ac.uk:AutoIG/bin/
