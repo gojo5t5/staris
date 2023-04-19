@@ -1,0 +1,31 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=2409
+%%%mzn-stat: flatIntVars=254
+%%%mzn-stat: flatBoolConstraints=4373
+%%%mzn-stat: flatIntConstraints=1868
+%%%mzn-stat: evaluatedReifiedConstraints=2
+%%%mzn-stat: evaluatedHalfReifiedConstraints=1647
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.302289
+%%%mzn-stat-end
+
+root = 1;
+h = [0, 0, 1, 1, 2, 3, 2, 3, 4, 3, 2, 2, 4, 4, 3, 3, 4, 4, 1, 2];
+p = [1, 2, 1, 2, 19, 5, 3, 20, 10, 20, 3, 3, 16, 10, 12, 5, 6, 6, 2, 4];
+es = [true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, true, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false];
+objective = 406;
+----------
+%%%mzn-stat: initTime=0.029844
+%%%mzn-stat: solveTime=1199.69
+%%%mzn-stat: solutions=117
+%%%mzn-stat: variables=2663
+%%%mzn-stat: propagators=6241
+%%%mzn-stat: propagations=27064834808
+%%%mzn-stat: nodes=114639137
+%%%mzn-stat: failures=57319415
+%%%mzn-stat: restarts=0
+%%%mzn-stat: peakDepth=40
+%%%mzn-stat-end
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

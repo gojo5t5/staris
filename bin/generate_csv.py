@@ -1,5 +1,3 @@
-# import matplotlib.pyplot as plt
-# import numpy as np
 import os
 import re
 import csv
@@ -64,7 +62,7 @@ def process_files(energy_folder_path, mznc_folder_path, csv_writer):
                     energy, runtime = get_data(model, instance, solver, energy_folder_path)
                     csv_writer.writerow([model, instance, solver, "", "UNSAT", runtime, energy])
 
-                elif "=====ERROR=====" in output:
+                elif "=====ERROR=====" in output or "error" in output:
                     add_to_dict('ERR', model, instance, solver)
 
                     energy, runtime = get_data(model, instance, solver, energy_folder_path)

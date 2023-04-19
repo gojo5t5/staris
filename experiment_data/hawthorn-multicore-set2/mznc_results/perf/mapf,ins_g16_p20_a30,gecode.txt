@@ -1,0 +1,15 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=515310
+%%%mzn-stat: flatIntVars=180811
+%%%mzn-stat: flatBoolConstraints=186750
+%%%mzn-stat: flatIntConstraints=700565
+%%%mzn-stat: evaluatedReifiedConstraints=512940
+%%%mzn-stat: evaluatedHalfReifiedConstraints=345930
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=22.4354
+%%%mzn-stat-end
+
+=====UNKNOWN=====
+%%%mzn-stat: nSolutions=0
+%%%mzn-stat-end

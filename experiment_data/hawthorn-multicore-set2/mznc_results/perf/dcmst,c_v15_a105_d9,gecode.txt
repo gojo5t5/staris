@@ -1,0 +1,32 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=1356
+%%%mzn-stat: flatIntVars=154
+%%%mzn-stat: flatBoolConstraints=1963
+%%%mzn-stat: flatIntConstraints=1065
+%%%mzn-stat: evaluatedReifiedConstraints=2
+%%%mzn-stat: evaluatedHalfReifiedConstraints=934
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.113485
+%%%mzn-stat-end
+
+root = 73;
+h = [1, 3, 1, 4, 2, 3, 0, 4, 2, 4, 0, 2, 1, 3, 3];
+p = [7, 5, 11, 2, 13, 5, 7, 14, 1, 14, 11, 3, 11, 9, 12];
+es = [false, false, false, false, false, true, false, true, false, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, false, false, false, false, true, false, false, false, false, false, true, false, false, false, false, true, false, false, true, false, false, false, false, true, false, false, false];
+objective = 290;
+----------
+==========
+%%%mzn-stat: initTime=0.011963
+%%%mzn-stat: solveTime=207.589
+%%%mzn-stat: solutions=75
+%%%mzn-stat: variables=1510
+%%%mzn-stat: propagators=3028
+%%%mzn-stat: propagations=7705270974
+%%%mzn-stat: nodes=42471848
+%%%mzn-stat: failures=21235844
+%%%mzn-stat: restarts=0
+%%%mzn-stat: peakDepth=57
+%%%mzn-stat-end
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

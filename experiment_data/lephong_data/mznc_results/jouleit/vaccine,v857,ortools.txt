@@ -1,0 +1,2 @@
+./mznc2022_probs/vaccine/v857.dzn:1.11-23:
+MiniZinc: type error: enum constructors must have a single identifier as argument

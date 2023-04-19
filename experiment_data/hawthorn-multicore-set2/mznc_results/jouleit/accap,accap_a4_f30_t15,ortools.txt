@@ -1,0 +1,22 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatIntVars=36
+%%%mzn-stat: flatIntConstraints=230
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.033629
+%%%mzn-stat-end
+
+yCoor = [29, 1, 39, 27, 13, 27, 32, 19, 43, 14, 24, 9, 47, 37, 31, 39, 37, 29, 25, 34, 5, 38, 30, 5, 11, 20, 19, 14, 24, 43];
+S = [9, 11, 17, 18];
+D = 48;
+objective = 103;
+----------
+==========
+%%%mzn-stat: objective=103
+%%%mzn-stat: objectiveBound=103
+%%%mzn-stat: boolVariables=606
+%%%mzn-stat: failures=13480
+%%%mzn-stat: propagations=2074909
+%%%mzn-stat: solveTime=2.62526
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

@@ -1,0 +1,20 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=3108
+%%%mzn-stat: flatIntVars=1050
+%%%mzn-stat: flatSetVars=1
+%%%mzn-stat: flatBoolConstraints=1839
+%%%mzn-stat: flatIntConstraints=3495
+%%%mzn-stat: flatSetConstraints=21
+%%%mzn-stat: evaluatedReifiedConstraints=1085
+%%%mzn-stat: evaluatedHalfReifiedConstraints=1963
+%%%mzn-stat: eliminatedImplications=439
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.221782
+%%%mzn-stat-end
+
+Error: The literal '7494364900' of the type int is out of range (-2147483646..2147483646) in line no. 1067
+Error: syntax error, unexpected ':', expecting FZ_INT_LIT in line no. 1067
+=====ERROR=====
+%%%mzn-stat: nSolutions=0
+%%%mzn-stat-end

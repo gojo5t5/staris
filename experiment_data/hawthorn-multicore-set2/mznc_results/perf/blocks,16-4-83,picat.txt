@@ -1,0 +1,5 @@
+/home/mh354/AutoIG/bin/./mznc2022_probs/blocks-world/blocks.mzn:58.40:
+constraint array1d(state[0,..]) = [0 | _ in step0];
+                                       ^
+Error: syntax error, unexpected _, expecting identifier
+

@@ -1,0 +1,26 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=43
+%%%mzn-stat: flatIntVars=153
+%%%mzn-stat: flatIntConstraints=99
+%%%mzn-stat: evaluatedReifiedConstraints=43
+%%%mzn-stat: method="maximize"
+%%%mzn-stat: flatTime=0.0862232
+%%%mzn-stat-end
+
+Team = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 14, 3, 2, 5, 6, 9, 8, 10, 1, 11, 15, 12, 13, 14, 4, 7];
+objective = 7583;
+----------
+%%%mzn-stat: initTime=0.001201
+%%%mzn-stat: solveTime=1199.91
+%%%mzn-stat: solutions=19
+%%%mzn-stat: variables=226
+%%%mzn-stat: propagators=98
+%%%mzn-stat: propagations=4211543196
+%%%mzn-stat: nodes=267320710
+%%%mzn-stat: failures=133660279
+%%%mzn-stat: restarts=0
+%%%mzn-stat: peakDepth=101
+%%%mzn-stat-end
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

@@ -1,0 +1,28 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=2801
+%%%mzn-stat: flatIntVars=3714
+%%%mzn-stat: flatBoolConstraints=85
+%%%mzn-stat: flatIntConstraints=6485
+%%%mzn-stat: evaluatedReifiedConstraints=2580
+%%%mzn-stat: evaluatedHalfReifiedConstraints=51
+%%%mzn-stat: method="maximize"
+%%%mzn-stat: flatTime=0.422432
+%%%mzn-stat-end
+
+power = array1d(TOWER, [6, 8, 6, 7, 1, 7, 4, 6, 6, 6, 3, 4, 2, 10, 6, 1, 1, 6, 7, 4, 9, 4, 7, 2, 3, 3, 1, 1, 1, 9]);
+----------
+==========
+%%%mzn-stat: initTime=0.048411
+%%%mzn-stat: solveTime=177.59
+%%%mzn-stat: solutions=81
+%%%mzn-stat: variables=6515
+%%%mzn-stat: propagators=6600
+%%%mzn-stat: propagations=1642427453
+%%%mzn-stat: nodes=2631774
+%%%mzn-stat: failures=1315200
+%%%mzn-stat: restarts=0
+%%%mzn-stat: peakDepth=176
+%%%mzn-stat-end
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

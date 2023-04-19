@@ -1,0 +1,2 @@
+/home/phong/staris/bin/./mznc2022_probs/generalized-peacable-queens/peaceable_queens.mzn:44.15-24:
+MiniZinc: type error: enum constructors must have a single identifier as argument

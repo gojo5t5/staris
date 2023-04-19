@@ -1,0 +1,27 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=1902
+%%%mzn-stat: flatIntVars=629
+%%%mzn-stat: flatBoolConstraints=2727
+%%%mzn-stat: flatIntConstraints=1367
+%%%mzn-stat: evaluatedReifiedConstraints=1044
+%%%mzn-stat: evaluatedHalfReifiedConstraints=220
+%%%mzn-stat: eliminatedImplications=4
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.23829
+%%%mzn-stat-end
+
+agent = array1d(1..23, [1, 2, 1, 1, 2, 2, 1, 2, 1, 1, 2, 2, 1, 1, 1, 2, 2, 1, 2, 1, 2, 1, 2]);
+task = array1d(1..23, [20, 3, 4, 1, 14, 13, 7, 15, 9, 10, 18, 22, 21, 2, 8, 16, 17, 5, 11, 19, 6, 12, 23]);
+arrival_time = array1d(1..23, [134, 344, 0, 61, 586, 687, 327, 451, 384, 443, 627, 802, 225, 195, 376, 556, 579, 486, 678, 0, 344, 557, 901]);
+location = array1d(1..23, [8, 2, 6, 7, 18, 17, 18, 17, 18, 17, 17, 21, 15, 15, 18, 17, 18, 17, 17, 6, 2, 6, 2]);
+----------
+==========
+%%%mzn-stat: objective=557
+%%%mzn-stat: objectiveBound=557
+%%%mzn-stat: boolVariables=3386
+%%%mzn-stat: failures=2090
+%%%mzn-stat: propagations=4871229
+%%%mzn-stat: solveTime=15.393
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

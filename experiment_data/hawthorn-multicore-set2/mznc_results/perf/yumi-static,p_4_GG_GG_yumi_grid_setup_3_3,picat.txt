@@ -1,0 +1,331 @@
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 1
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 1
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:727:
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 2
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 2
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:727:
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 3
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 3
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:727:
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 4
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 4
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:727:
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 5
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 5
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:727:
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 6
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 6
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:727:
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 7
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 7
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:727:
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 8
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 8
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:727:
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 9
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 9
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:727:
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 10
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: undefined result becomes false in Boolean context
+  (array slice out of bounds)
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:724:
+  in let expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in array comprehension expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:729:
+    with t = 10
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:726:
+  in if-then-else expression
+  /home/mh354/AutoIG/bin/./mznc2022_probs/yumi-static/yumi-static.mzn:727:
+  in call 'has_element'
+  in call 'col'
+  /home/mh354/AutoIG/bin/minizinc/share/minizinc/std/stdlib/stdlib_array.mzn:347:
+  in call 'slice_1d'
+
+  WARNING: Further warnings have been suppressed.
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=85
+%%%mzn-stat: flatIntVars=335
+%%%mzn-stat: flatBoolConstraints=30
+%%%mzn-stat: flatIntConstraints=503
+%%%mzn-stat: evaluatedReifiedConstraints=121
+%%%mzn-stat: evaluatedHalfReifiedConstraints=2
+%%%mzn-stat: eliminatedImplications=2
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.156317
+%%%mzn-stat-end
+
+% solving(/tmp/mznfileJFCMZx.fzn)
+% loading /tmp/mznfileJFCMZx.fzn
+% error(existence_error(procedure,ic_bool_clause / 2),call / 1)
+=====UNKNOWN=====
+%%%mzn-stat: nSolutions=0
+%%%mzn-stat-end

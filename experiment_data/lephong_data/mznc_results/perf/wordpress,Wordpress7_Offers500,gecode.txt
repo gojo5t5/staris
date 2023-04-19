@@ -1,0 +1,30 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=36
+%%%mzn-stat: flatIntVars=182
+%%%mzn-stat: flatBoolConstraints=20
+%%%mzn-stat: flatIntConstraints=300
+%%%mzn-stat: evaluatedReifiedConstraints=35
+%%%mzn-stat: evaluatedHalfReifiedConstraints=1
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.0635818
+%%%mzn-stat-end
+
+AssignmentMatrix = array2d(1..5, 1..15, [0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
+OccupancyVector = array1d(1..15, [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]);
+VMType = array1d(1..15, [341, 433, 341, 341, 433, 433, 433, 433, 433, 433, 433, 433, 433, 433, 433]);
+Price = array1d(1..15, [210, 116, 210, 210, 116, 116, 116, 116, 116, 116, 116, 116, 116, 116, 116]);
+----------
+%%%mzn-stat: initTime=0.00541
+%%%mzn-stat: solveTime=1199.93
+%%%mzn-stat: solutions=3230
+%%%mzn-stat: variables=218
+%%%mzn-stat: propagators=320
+%%%mzn-stat: propagations=2027292194
+%%%mzn-stat: nodes=39555193
+%%%mzn-stat: failures=19762036
+%%%mzn-stat: restarts=0
+%%%mzn-stat: peakDepth=62
+%%%mzn-stat-end
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end
