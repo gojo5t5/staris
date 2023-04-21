@@ -1,0 +1,22 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatIntVars=48
+%%%mzn-stat: flatIntConstraints=25
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.029303
+%%%mzn-stat-end
+
+% solving(/tmp/mznfileKnafWZ.fzn)
+% loading /tmp/mznfileKnafWZ.fzn
+% obj = 2508
+w = array1d(0..23, [120, 120, 116, 118, 102, 105, 118, 90, 118, 90, 86, 106, 94, 114, 90, 120, 118, 111, 115, 84, 75, 87, 102, 109]);
+f = array1d(0..23, [24, 37, 22, 26, 35, 37, 18, 28, 19, 40, 31, 0, 47, 12, 27, 20, 35, 32, 3, 50, 33, 25, 7, 19]);
+objective = 2508;
+----------
+% obj = 2468
+w = array1d(0..23, [120, 114, 114, 63, 101, 90, 116, 108, 73, 80, 96, 99, 98, 99, 90, 120, 119, 114, 81, 120, 106, 120, 120, 107]);
+f = array1d(0..23, [16, 23, 0, 68, 29, 17, 0, 17, 67, 6, 26, 9, 32, 13, 42, 12, 31, 14, 33, 42, 30, 9, 0, 81]);
+objective = 2468;
+----------
+%%%mzn-stat: nSolutions=2
+%%%mzn-stat-end

@@ -1,0 +1,22 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatIntVars=160
+%%%mzn-stat: flatIntConstraints=1192
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.0567413
+%%%mzn-stat-end
+
+yCoor = [38, 31, 14, 1, 15, 14, 13, 11, 32, 20, 10, 24, 1, 10, 38, 16, 35, 20, 7, 3, 16, 7, 31, 35, 38, 14, 5, 31, 22, 4, 1, 1, 40, 40, 11, 8, 1, 9, 14, 31, 33, 1, 13, 8, 18, 5, 23, 36, 23, 14, 31, 10, 10, 26, 16, 1, 1, 21, 19, 20, 32, 9, 20, 23, 16, 5, 11, 21, 2, 35, 14, 5, 8, 10, 32, 32, 24, 5, 10, 36, 16, 19, 26, 34, 1, 10, 35, 1, 30, 17, 33, 40, 23, 18, 21, 36, 9, 3, 7, 6, 28, 19, 24, 33, 10, 33, 39, 7, 26, 10, 24, 14, 29, 1, 20, 21, 18, 30, 12, 36, 14, 6, 17, 3, 15, 17, 30, 3, 26, 30, 33, 14, 16, 11, 16, 28, 32, 33, 5, 9];
+S = [5, 4, 8, 4, 9, 4, 5, 6, 9, 4, 8, 9, 5, 9, 7, 6, 4, 7];
+D = 40;
+objective = 153;
+----------
+==========
+%%%mzn-stat: objective=153
+%%%mzn-stat: objectiveBound=153
+%%%mzn-stat: boolVariables=5805
+%%%mzn-stat: failures=13592
+%%%mzn-stat: propagations=7312122
+%%%mzn-stat: solveTime=37.9016
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

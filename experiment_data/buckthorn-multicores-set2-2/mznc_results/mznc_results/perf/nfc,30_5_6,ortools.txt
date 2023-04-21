@@ -1,0 +1,21 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatIntVars=60
+%%%mzn-stat: flatIntConstraints=31
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.0299925
+%%%mzn-stat-end
+
+w = array1d(0..29, [95, 99, 58, 58, 62, 80, 65, 91, 91, 93, 32, 97, 88, 88, 82, 82, 23, 90, 97, 97, 97, 96, 102, 95, 95, 96, 102, 53, 53, 53]);
+f = array1d(0..29, [1, 11, 41, 0, 0, 43, 15, 0, 0, 4, 61, 0, 26, 0, 6, 0, 65, 17, 0, 0, 0, 6, 84, 7, 0, 0, 5, 90, 0, 0]);
+objective = 2410;
+----------
+==========
+%%%mzn-stat: objective=2410
+%%%mzn-stat: objectiveBound=2410
+%%%mzn-stat: boolVariables=102
+%%%mzn-stat: failures=62
+%%%mzn-stat: propagations=3763
+%%%mzn-stat: solveTime=0.00718867
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

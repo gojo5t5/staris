@@ -145,7 +145,7 @@ done < $instances
 #     done
 # done
 
-# scp -r mh354@buckthorn.cs.st-andrews.ac.uk:AutoIG/bin/csvs /Users/matteohe/Desktop/results/buck/buckthorn-multicores-set2/
+# scp -r mh354@buckthorn.cs.st-andrews.ac.uk:AutoIG/bin/mznc_results /Users/matteohe/Desktop/results/buck/buckthorn-multicores-set2-2/mznc_results
 # scp -r mh354@hawthorn.cs.st-andrews.ac.uk:AutoIG/bin/csvs /Users/matteohe/Desktop/results/haw/hawthorn-multicores-set2/csvs
 # scp -r /Users/matteohe/Documents/staris/AutoIG/bin/generate_csv.py mh354@hawthorn.cs.st-andrews.ac.uk:AutoIG/bin/
 

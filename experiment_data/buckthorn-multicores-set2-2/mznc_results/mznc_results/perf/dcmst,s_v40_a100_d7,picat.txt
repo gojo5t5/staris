@@ -1,0 +1,17 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=2074
+%%%mzn-stat: flatIntVars=224
+%%%mzn-stat: flatBoolConstraints=1784
+%%%mzn-stat: flatIntConstraints=1823
+%%%mzn-stat: evaluatedReifiedConstraints=1674
+%%%mzn-stat: method="minimize"
+%%%mzn-stat: flatTime=0.116135
+%%%mzn-stat-end
+
+% solving(/tmp/mznfileMmqGuV.fzn)
+% loading /tmp/mznfileMmqGuV.fzn
+% error(existence_error(procedure,ic_bool_or / 2),call / 1)
+=====UNKNOWN=====
+%%%mzn-stat: nSolutions=0
+%%%mzn-stat-end

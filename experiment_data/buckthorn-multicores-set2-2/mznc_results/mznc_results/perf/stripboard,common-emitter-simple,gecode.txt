@@ -1,0 +1,21 @@
+/home/mh354/AutoIG/bin/./mznc2022_probs/stripboard/stripboard.mzn:78.35-40:
+array [PAD] of var int: pad_xy :: output = [(full_w + 1) * (pad_y[p] + 1) + pad_x[p] | p in PAD];
+                                  ^^^^^^
+Error: syntax error, unexpected output
+/home/mh354/AutoIG/bin/./mznc2022_probs/stripboard/stripboard.mzn:87.34:
+  array [int] of var bool: u = [c: component_orientation[c] in {Upright, UpsideDown} | c in COMPONENT];
+                                 ^
+Error: syntax error, unexpected ':', expecting ]
+/home/mh354/AutoIG/bin/./mznc2022_probs/stripboard/stripboard.mzn:92.1:
+} in diffn(x, y, dx, dy);
+^
+Error: syntax error, unexpected '}', expecting end of file
+/home/mh354/AutoIG/bin/./mznc2022_probs/stripboard/stripboard.mzn:97.12:
+    Upright: pin_dx[p] - 1,
+           ^
+Error: syntax error, unexpected ':', expecting ]
+/home/mh354/AutoIG/bin/./mznc2022_probs/stripboard/stripboard.mzn:103.12:
+    Upright: pin_dy[p] - 1,
+           ^
+Error: syntax error, unexpected ':', expecting ]
+

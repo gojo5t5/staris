@@ -6,7 +6,7 @@ def process_files(csvs_folder_path, dfs):
     for filename in os.listdir(csvs_folder_path):
         fullpath = os.path.join(csvs_folder_path, filename)
         if os.path.isfile(fullpath) and filename.endswith('.csv'):
-            if "perf" in fullpath:
+            if "perf" in fullpath or ("multicore" in fullpath):
                 continue
             print("Processing file: " + fullpath)
             df = pd.read_csv(fullpath)

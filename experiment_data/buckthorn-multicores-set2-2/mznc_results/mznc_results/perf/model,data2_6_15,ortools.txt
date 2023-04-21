@@ -1,0 +1,22 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=1168
+%%%mzn-stat: flatIntVars=1263
+%%%mzn-stat: flatIntConstraints=2378
+%%%mzn-stat: evaluatedReifiedConstraints=1168
+%%%mzn-stat: method="maximize"
+%%%mzn-stat: flatTime=0.153545
+%%%mzn-stat-end
+
+Team = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 8, 14, 9, 7, 10, 6, 15, 13, 3, 4, 5, 11, 12, 1, 2, 11, 14, 15, 3, 1, 9, 10, 12, 8, 7, 6, 5, 13, 4, 2, 13, 9, 10, 4, 2, 7, 15, 6, 12, 5, 8, 11, 3, 1, 14, 4, 12, 9, 2, 11, 5, 10, 15, 14, 13, 7, 3, 6, 1, 8, 4, 6, 10, 9, 2, 12, 11, 1, 5, 3, 13, 14, 8, 7, 15];
+objective = 26773;
+----------
+==========
+%%%mzn-stat: objective=26773
+%%%mzn-stat: objectiveBound=26773
+%%%mzn-stat: boolVariables=1531
+%%%mzn-stat: failures=1
+%%%mzn-stat: propagations=92727
+%%%mzn-stat: solveTime=0.272955
+%%%mzn-stat: nSolutions=1
+%%%mzn-stat-end

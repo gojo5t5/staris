@@ -1,0 +1,21 @@
+% Generated FlatZinc statistics:
+%%%mzn-stat: paths=0
+%%%mzn-stat: flatBoolVars=18372
+%%%mzn-stat: flatIntVars=28496
+%%%mzn-stat: flatBoolConstraints=284
+%%%mzn-stat: flatIntConstraints=60749
+%%%mzn-stat: evaluatedReifiedConstraints=24094
+%%%mzn-stat: method="maximize"
+%%%mzn-stat: flatTime=2.18339
+%%%mzn-stat-end
+
+% solving(/tmp/mznfileETic8d.fzn)
+% loading /tmp/mznfileETic8d.fzn
+% obj = 64
+power = array1d(TOWER, [8, 10, 6, 4, 8, 1, 8, 6, 10, 10, 2, 10, 10, 10, 8, 10, 10, 6, 10, 9, 10, 6, 7, 10, 6, 5, 6, 2, 5, 10, 8, 10, 6, 8, 10, 6, 6, 6, 9, 6, 4, 6, 6, 10, 8, 10, 6, 3, 6, 7]);
+----------
+% obj = 75
+power = array1d(TOWER, [10, 10, 4, 6, 6, 8, 7, 10, 10, 7, 2, 7, 10, 6, 8, 10, 10, 2, 10, 8, 5, 6, 10, 1, 8, 6, 9, 6, 1, 10, 8, 7, 10, 6, 5, 8, 10, 6, 6, 2, 6, 6, 6, 4, 6, 8, 9, 10, 9, 8]);
+----------
+%%%mzn-stat: nSolutions=2
+%%%mzn-stat-end

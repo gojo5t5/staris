@@ -1,0 +1,10 @@
+[sudo] password for mh354: 
+ Performance counter stats for 'system wide':
+
+          27667.03 Joules power/energy-cores/                                         
+           4902.12 Joules power/energy-ram/                                           
+              0.03 Joules power/energy-gpu/                                           
+          37406.39 Joules power/energy-pkg/                                           
+
+    1200.135408261 seconds time elapsed
+
